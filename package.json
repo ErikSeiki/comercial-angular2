@@ -1,9 +1,8 @@
 {
   "name": "oportunidades",
-  "version": "1.4.1",
+  "version": "0.0.0",
   "engines": {
-    "node": "8.9.4",
-    "npm": "3.10.9"
+    "node": "8.9.4"
   },
   "scripts": {
     "ng": "ng",
