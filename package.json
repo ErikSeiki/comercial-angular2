@@ -1,18 +1,15 @@
 {
   "name": "oportunidades",
   "version": "0.0.0",
-  "engines": {
-    "node": "8.9.4",
-    "npm": "6.9.0"
-  },
   "scripts": {
     "ng": "ng",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start": "node server.js",
-    "heroku-postbuild": "ng build --prod"
+
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
@@ -60,5 +57,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
+  },
+    "engines": {
+    "node": "8.9.4",
+    "npm": "6.9.0"
   }
 }
